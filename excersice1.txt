@@ -1,0 +1,12 @@
+1. The memory address is 0x10010065
+2. 
+opcode: 0x04 (beq)
+rs: 0x10 (source)
+rt: 0x00 (target)
+offset: 0x09
+The offset 9 is the relative address to branch
+
+3.
+opcode: 0x02 (j)
+target: 0x10000f
+The target address is calculated based on the label it jumps to

@@ -1,0 +1,4 @@
+leaf_function:
+    addi $t0, $a0, 1
+    move $v0, $t0
+    jr $ra
